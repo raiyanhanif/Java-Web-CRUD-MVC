@@ -1,0 +1,65 @@
+body {
+    background: #f5f7fa;
+    font-family: Segoe UI;
+    padding: 20px
+}
+
+.container {
+    max-width: 1100px;
+    margin: auto
+}
+
+header {
+    background: linear-gradient(135deg, #6a11cb, #2575fc);
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center
+}
+
+.user-controls {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0
+}
+
+button {
+    background: linear-gradient(135deg, #6a11cb, #2575fc);
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 25px;
+    cursor: pointer
+}
+
+table {
+    width: 100%;
+    background: white;
+    border-collapse: collapse
+}
+
+th,
+td {
+    padding: 12px;
+    border-bottom: 1px solid #eee
+}
+
+th {
+    background: #2575fc;
+    color: white
+}
+
+.actions button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 16px
+}
+
+.edit {
+    color: #2575fc
+}
+
+.delete {
+    color: #ff4757
+}
