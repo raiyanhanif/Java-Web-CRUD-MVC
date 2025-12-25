@@ -12,8 +12,8 @@ import java.sql.*;
 public class DeleteUserServlet extends HttpServlet {
     private static final long serialVersionUID = 1L;
     private final String url = "jdbc:mysql://localhost:3306/demo";
-    private final String dbUser = "root";
-    private final String dbPass = "Raiyan@9712";
+    private final String dbUser = "YOUR_USERNAME_HERE";
+    private final String dbPass = "YOUR_PASSWORD_HERE";
 
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
         // 1. URL se ID pakdo

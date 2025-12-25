@@ -16,8 +16,8 @@ import java.util.List;
 public class Display extends HttpServlet {
     private static final long serialVersionUID = 1L;
     private static final String url = "jdbc:mysql://localhost:3306/demo";
-    private static final String username = "root";
-    private static final String password = "Raiyan@9712";
+    private static final String username = "YOUR_USERNAME_HERE";
+    private static final String password = "YOUR_PASSWORD_HERE";
 
     // CHANGE: doPost ko doGet kar diya taaki redirect yahan kaam kare
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
